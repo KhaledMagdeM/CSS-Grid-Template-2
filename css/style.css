@@ -74,7 +74,7 @@ p {
 
 
 @media (max-width: 699px) {
-    #showcase h1 {font-size: 1.8rem !important;}
+    #showcase h1 {font-size: 1.9rem !important;}
     
     #showcase  p {font-size: 1rem !important; margin-bottom: 10px}
     
@@ -185,12 +185,24 @@ footer {
 
 @media (min-width: 1100px) {
 
-    .card:nth-child(3) {grid-column: 2/4;}
+    #section-b {
+	    display: flex;
+        justify-content: space-around
+    }
+    
+    
+    
+    #section-b .card {
+        width: 31%;
+        margin: 0    
+    }
+    
     
     #section-d .box, 
     footer h4,
-    footer p
-    {grid-column: 1/5;}
+    footer p {grid-column: 1/5;}
+    
+    
     
 
 }
